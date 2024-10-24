@@ -9,6 +9,5 @@ dependencies = [
     "mkdocs-material>=9.5.42",
     "mkdocs-minify-plugin>=0.8.0",
     "pygments>=2.18.0",
-    "pymdown-extensions>=10.11.2",
-    "ruff>=0.7.0",
+    "pymdown-extensions>=10.11.2"
 ]
