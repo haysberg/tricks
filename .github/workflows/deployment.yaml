@@ -21,4 +21,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - uses: Gr1N/setup-poetry@v8
-      - run: mkdocs gh-deploy --force
+      - run: poetry install
+      - run: poetry run mkdocs gh-deploy --force
